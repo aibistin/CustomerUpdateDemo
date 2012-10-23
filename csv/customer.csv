@@ -1,0 +1,17 @@
+id,last_name,first_name,m_i,prefix,suffix,alias,address_1,address_2,city,state,zip,phone_1,phone_2,phone_3,email_1,email_2,recommended_by,repeat,type,comments,created,created_by,updated,updated_by
+1,goldstein,shlepim,"","","",shlepp,"park ave","",NY,NY,11111,"","","","","","super duper",0,1,"","2012-08-18 14:14:30",3,"2012-08-18 14:14:30",3
+2,catalano,cappo,"","","","the capp","3 fuggetaboutit rd","",NY,NY,11113,"","","","","","super duper",0,1,"","2012-08-18 14:14:30",3,"2012-08-18 14:14:30",3
+3,skater,cheapo,"","","","","1 Crappy towers","",NY,NY,11143,"","","","","","droopy doorman",0,1,"","2012-08-18 14:14:30",3,"2012-08-18 14:14:30",3
+4,abib,arry,"","","","","1 u plaza","",NY,NY,11143,"212345687","","","","",yelp,0,1,"","2012-08-18 14:14:30",5,"2012-08-18 14:14:30",5
+5,jacobistein,jacob,"",mr,"","","800 park ave",7h,"new york",ny,"",6054445555,"","",elite1@pct.com,"","shakedown super",,,"","2012-08-18 16:33:47",1,"2012-09-29 22:54:57",1
+6,joe,john,,"",jr,,"4 east 46 st",4g,"new york",ny,100001,2122224880,"","",john@joe.com,"","mary b",1,,"","2012-08-25 21:07:38",1,"2012-08-25 21:07:38",
+7,ruthles,ruth,,mrs.,"",,"665 fifth ave",4k,"new york-ny-nyc",ny,00000,2224444444,"","",ruth@ruthless.com,"","super dooper",2,,"","2012-08-25 21:35:33",1,"2012-08-27 02:43:22",1
+8,flake,jake,,mr,"",,"45 lexington ave",phb,"new york",ny,"",2334445555,"","",jake@flake.com,"","roger rabbit",2,,"","2012-08-25 21:38:05",1,"2012-08-25 21:39:29",1
+9,fireplace,fred,,mr,"",,"400 east 67 st","apt 4g","new city",ny,11378,3334445555,9177108047,9177108047,fred@fire.com,"","",2,,"","2012-08-26 22:23:34",1,"2012-09-29 22:27:42",1
+10,goldswatch,betty,,"","",,"356 park ave",phb,"new york",ny,"",3334445555,"","",bety@goldswatch.com,"","",1,,"","2012-08-26 23:52:32",1,"2012-08-27 00:01:01",1
+11,graybeard,bill,,mr,sr,,"455 park avenue",2f,"new york",ny,11100,2122222222,"","",bill@thebeard.com,"","his brother fred",3,,"could use the special repeat customer rate","2012-09-22 00:12:44",2,"2012-09-22 00:12:44",
+12,brown,john,,mr,"",,"23 franklin st",7n,"new york",ny,11101,2122522222,"","",john@brown.com,glory@gory.com,"",0,,"may be moving down south in the furure.","2012-09-22 00:36:38",1,"2012-09-22 00:36:38",
+13,frankelberg,residence,,ms.,"",,"224 east 73 street",5k,"new york",ny,11111,2122522622,9174454545,"",betty@address.com,"","igor the super",3,,"lots of fine china.","2012-09-22 01:24:19",1,"2012-09-22 01:24:19",
+14,dladd,jack,,mr,"",,"334 east westmore st",3g,brocton,ny,14716,3334445555,"","",jack@dladd.com,"","building super",1,,"bring some glue.","2012-09-25 02:07:21",1,"2012-09-25 02:07:21",
+15,frankelberg,residence,,ms.,"",,"224 east 73 street",5k,"new york",ny,11111,2122522622,9174454545,"",betty@address.com,"","igor the super",3,,"lots of fine china.","2012-09-29 20:46:44",1,"2012-09-29 20:46:44",
+16,nomohann,johann,,mr,"",,"489 amsterdam ave",5h,"new york",ny,100001,9174443440,"","",johan@nomohan.com,"","saw truck",2,,"","2012-09-29 22:34:07",1,"2012-09-29 22:35:39",1

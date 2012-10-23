@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+[%#    <html lang="en">    %]
+<meta charset="utf-8">
+[%#<meta name="viewport" content="width=device-width, initial-scale=1.0"> %]
+<meta name="author" content="Austin Kenny">
+<head>
+
+<style type="text/css">
+  
+ p {
+ font-size : 15px;
+ font-style : Arial;
+ padding : 2px;
+ }
+    
+  table {
+      max-width: 100%;
+        background-color: transparent;
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin-bottom: 10px;
+  }
+
+  
+ th, 
+ td {
+      padding: 8px;
+      line-height: 20px;
+      text-align: left;
+      vertical-align: top;
+      border-top: 1px solid #dddddd;
+  }
+  
+ th {
+      font-weight: bold;
+      border-bottom: 2px solid #dddddd;
+  }
+  
+  
+  tr:nth-child(odd) td, 
+  tr:nth-child(odd) th {
+      background-color: #f9f9f9;
+  }
+  
+  tr:hover td, 
+  tr:hover th {
+      background-color: #f5f5f5;
+      font-size : 18px
+  }
+  </style>
+</head>
+<body>
+<p>Hello [% person_to %],</p>
+<div class="row-fluid">
+  <p>Here are some of your customers.</p>
+
+  <table>
+        <tr>
+          <th>[%customer_table_heading.heading_last_name%]</th>
+            <th>[%customer_table_heading.heading_first_name%]</th>
+              <th>[%customer_table_heading.heading_address%]</th>
+              <th>[%customer_table_heading.heading_primary_phone%]</th>
+         </tr>
+        [%# Display each customer in a table row %]
+        [%# Result set contains customers %]
+        [% FOREACH customer IN  customer_table_rows %]
+            <tr>
+                <td>[%- customer.last_name FILTER ucfirst %]</td>
+                <td>[%- customer.first_name FILTER ucfirst  %]</td>
+                <td>[%- customer.city FILTER ucfirst %], [%- customer.state %]</td>
+                <td>[%- customer.primary_phone  %] </td>
+            </tr>
+        [% END -%]
+    </table>
+</div> <!-- /row-fluid --> 
+
+ <p><a href="[% link_to_website %]">Please dont click here</a></p>
+
+<p>[% attachment %]</p>
+
+<p> Thank you.</p>
+
+<br />
+<p>[% signed %]</p>
+
+
+
+</body>
+</html>
+
